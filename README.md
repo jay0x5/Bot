@@ -8,3 +8,5 @@ If anyone is interested in knowing more about this project and my implementation
 heres my mail: contactjay0x5@gmail.com
 
 IMPORTANT: also, the implementation is still not entirely done, i am still tweaking it so dont brag after running an incomplete code ;)
+
+Feel free to contribute by doing a pull request and proper contributed code explanation :D
