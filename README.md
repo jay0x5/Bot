@@ -10,3 +10,15 @@ heres my mail: contactjay0x5@gmail.com
 IMPORTANT: also, the implementation is still not entirely done, i am still tweaking it so dont brag after running an incomplete code ;)
 
 Feel free to contribute by doing a pull request and proper contributed code explanation :D
+
+
+
+Implementations I did:
+1. Added a speak function (easiest shit)
+2. Wrote a algorithm so it can differentiate between a normal command and a command asking him to perform a specific action (was bit challenging to me)
+
+
+i am still improvising my implementations to make the behaviour more subtle and less weird
+
+
+
