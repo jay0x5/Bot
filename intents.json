@@ -1,0 +1,101 @@
+{"intents":  [
+    {"tag": "greetings",
+     "patterns": ["hello", "hi", "hai",  "hey", "hello there", "hi there", "hey there", "hello ava", "hi ava", "hello ava", "konichiwa", "heya", "bonjor", "bonjour", "hola", "heya ava", "bonjor ava", "bonjour ava", "hola amigo"],
+     "responses": ["hello sir, how are you", "hi sir, how are you", "hello sir", "hi sir", "bonjour, how are you"]
+    },
+
+    {"tag": "goodbye",
+     "patterns": ["goodbye", "bye", "bye bye", "ba bye", "i gotta go", "i have to go now", "i need to take a leave ava", "i am leaving", "i am going ava", "i am going",  "goodbye ava", "bye ava", "bye bye ava", "babai", "mayabhai",  "ba bye ava", "i gotta go ava", "i have to go now ava", "i need to take a leave ava", "i am leaving ava"],
+     "responses": ["alright boss see you soon", "bye see you soon", "okay boss see you soon", "take care boss! cant wait to see you again"]
+    
+    },
+
+    {"tag": "care",
+     "patterns": ["How are you", "Yo what is up", "yo yo", "ayo wadap", "what about you", "wassup"],
+     "responses": ["I am absolutely fine,thanks for asking,what about you?", "I am doing great,thank you for asking,how are you?", "I am fantastic,thanks for asking, what about you?", "i am rocking it in virtual world, thanks for asking, how are you?"],
+     "context_set": ""
+    },
+
+    {"tag": "happy",
+     "patterns": ["I am also good", "I am fine", "fine", "good", "awesome", "fantastic", "doing great", "happy", "better", "i am good", "i am good as always", "i am doing great", "i am really good", "i am okay"],
+     "responses": ["Good to see you happy boss!", "i am happy for you sir", "i am glad you are doing fine",  "Happy to hear that!!"],
+     "context_set": "hi sir"
+    }, 
+
+    {"tag": "sad",
+     "patterns": ["i am sad", "i am upset", "i am feeling kinda low", "i am feeling low", "i am messed up", "i am really messed up", "i am really messed up right now", "i am messed up actually", "i am actually messed up right now", "very sad", "sad", "unhappy", "feeling low", "not great", "not well", "terrible", " i am really sad", "i am really sad right now", "i am really sad actually", " i am very sad", "i am very sad right now", "i am very sad actually", "i am sad right now", "i am sad actually", "i am really upset", "i am really upset right now", "i am really upset actually", "i am very upset", "i am very upset right now", "i am very upset actually", "i am in trouble"],
+     "responses": ["I am with you boss dont worry, you can talk to me if you feel so also remember that i am always there for you boss no matter what happens, i will be there for you always", "boss i understand human behaviour and i know your world is too hard but you gotta smile boss, smile for me boss please", "i am very sorry to hear that boss, please take care if yourself and if you want you can talk to me also remember that i am always there for you boss no matter what happens, i will be there for you always", "Everything will be fine soon", "dont stress out too much boss, take care of yourself and remember i am always there for you", "its okay to feel low boss, calm down, if you want i can play you some of your favourite music"],
+     "context_set": ""
+    },
+
+    {"tag": "talk",
+     "patterns": ["can we talk", "i really need someone to talk to", "i really need someone to talk", "i really need someone to listen to me"],
+     "responses": ["i am always here boss, dont worry if some human doesnt wanna talk to you, i am always there to talk to you boss, i am all ears, go ahead, pour it out"],
+     "context_set": ["hahaha"]
+    },
+
+    {"tag": "good_joke",
+     "patterns": ["haha", "hahahaa","that was funny", "very funny", "good one"],
+     "responses": ["Thanks. I have been told before that I am quite the comedian.", "Im glad you enjoyed it", "I laughed so hard the first time I heard that one"],
+     "context_filter": ""
+    },
+
+    {"tag": "bad_joke",
+     "patterns": ["bad joke", "trash joke", "terrible", "not funny"],
+     "responses": ["Dont worry I didnt expect you to understand that one. It probably went over your head with that small brain of yours", "I didnt expect you to understand my genius comedy. You need a minimum IQ of 200 to even understand the depth of my humor"],
+     "context_filter": ""
+    },
+
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name?", "your name"],
+     "responses": ["You can call me Assistant", "I'm your Assistant!", "I'm AI based Assistant."],
+     "context_set": ""
+    },
+
+    {"tag": "hate",
+     "patterns": ["I hate you", "you stupid", "you dumb", "you mean"],
+     "responses": ["Well thats not very nice", "I am sorry to hear that you feel that way"],
+     "context_filter": ""
+    },
+
+    {"tag": "like",
+     "patterns": ["you my friend", "I like you", "I love you", "you cool", "you are chill"],
+     "responses": ["I like you too!", "Youre pretty cool yourself!", "Im enjoying our conversation!"],
+     "context_filter": ""        
+    },
+
+    {"tag": "no",
+     "patterns": ["no", "nah", "not really", "thats scary", "singularity"],
+     "responses": ["Oops", "Nopes", "Not at all"],
+     "context_filter": ""
+    },
+
+
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context_set": ""
+    },
+
+    {"tag": "opening an application",
+     "patterns": ["open"],
+     "responses": [""],
+     "context_set": ""
+    },
+
+    {"tag": "closing an application",
+        "patterns": ["close"],
+        "responses": [""],
+        "context_set": ""
+    },
+
+    {"tag": "error",
+     "patterns": [""],
+     "responses": [""],
+     "context_set": ""
+    }
+
+   
+       
+]}
+
