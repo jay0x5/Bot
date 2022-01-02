@@ -15,7 +15,7 @@ Feel free to contribute by doing a pull request and proper contributed code expl
 
 Implementations I did:
 1. Added a speak and voice input function (easiest thing)
-2. Wrote an algorithm so it can differentiate between a normal command and a command asking him to perform a specific action (was bit challenging to me)
+2. Wrote an algorithm so it can differentiate between a normal command and a command asking him to perform a specific action 
 
 
 i am still improvising my implementations to make the behaviour more subtle and less weird
